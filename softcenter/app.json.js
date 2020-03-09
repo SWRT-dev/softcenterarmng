@@ -1,14 +1,14 @@
 {
     "apps": [
         {
-            "build_date": "2020-02-22_23:48:29", 
+            "build_date": "2020-03-09_12:02:07", 
             "description": "解锁网易云灰色歌曲", 
             "home_url": "Module_unblockmusic.asp", 
-            "md5": "8e018bb441d6365f543e69dbbc53e03c", 
+            "md5": "6e597a3da6cb9ec1ca91a8fa7a703178", 
             "name": "unblockmusic", 
             "tar_url": "unblockmusic/unblockmusic.tar.gz", 
             "title": "解锁网易云灰色歌曲", 
-            "version": "1.0.0"
+            "version": "1.0.1"
         }, 
         {
             "build_date": "2020-03-06_12:23:04", 
@@ -21,14 +21,14 @@
             "version": "1.0.2"
         }, 
         {
-            "build_date": "2019-11-17_21:49:27", 
+            "build_date": "2020-03-09_13:25:27", 
             "description": "科学上网", 
             "home_url": "Main_Ss_Content.asp", 
-            "md5": "fff56c02986876c8b6825edbac481d46", 
+            "md5": "65bed427987857fbc5f2db659ac0734b", 
             "name": "shadowsocks", 
             "tar_url": "shadowsocks/shadowsocks.tar.gz", 
             "title": "科学上网", 
-            "version": "4.2.0"
+            "version": "4.2.2"
         }, 
         {
             "build_date": "2019-07-26_10:56:02", 
@@ -199,16 +199,6 @@
             "tar_url": "aliddns/aliddns.tar.gz", 
             "title": "阿里DDNS", 
             "version": "1.3"
-        }, 
-        {
-            "build_date": "2019-08-12_22:07:34", 
-            "description": "网易uu", 
-            "home_url": "Module_uu.asp", 
-            "md5": "4d28dd18649b2e46daeefdd6b78edb1e", 
-            "name": "uu", 
-            "tar_url": "uu/uu.tar.gz", 
-            "title": "网易uu", 
-            "version": "1.2.12"
         }, 
         {
             "build_date": "2019-08-12_17:46:31", 
