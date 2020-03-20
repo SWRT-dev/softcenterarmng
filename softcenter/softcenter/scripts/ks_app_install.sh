@@ -287,7 +287,7 @@ uninstall_module() {
 }
 
 #LOGGER $BIN_NAME
-case $1 in
+case $BIN_NAME in
 start)
 	sh /jffs/softcenter/perp/perp.sh stop
 	sh /jffs/softcenter/perp/perp.sh start
