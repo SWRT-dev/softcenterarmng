@@ -351,10 +351,10 @@ function update_visibility(){
 	// update command
 	switch (E("aliddns_comd").value) {
 		case '1':
-			E("aliddns_curl").value = "curl -s --interface ppp0 whatismyip.akamai.com"
+			E("aliddns_curl").value = "curl -s whatismyip.akamai.com"
 			break;
 		case '2':
-			E("aliddns_curl").value = "curl -s --interface ppp0 ip.clang.cn"
+			E("aliddns_curl").value = "curl -s ip.clang.cn"
 			break;
 		case '3':
 			E("aliddns_curl").value = "curl -s whatismyip.akamai.com"
@@ -500,7 +500,7 @@ function menu_hook(title, tab) {
 														<option value="6">自定义</option>
 													</select>
 														<!--<textarea id="aliddns_curl" class="input_ss_table" style="width: 94%; height: 2.4em">curl -s --interface ppp0 ip.clang.cn</textarea>-->
-														<input type="text" id="aliddns_curl" value="curl -s --interface ppp0 ip.clang.cn" maxlength="300" placeholder="" class="input_ss_table" spellcheck="false" style="width:84%" title="[排除]关键词（含关键词的节点不会添加）">
+														<input type="text" id="aliddns_curl" value="curl -s ip.clang.cn" maxlength="300" placeholder="" class="input_ss_table" spellcheck="false" style="width:84%" title="[排除]关键词（含关键词的节点不会添加）">
 													</td>
 												</tr>
 												<tr id="ttl_tr">
