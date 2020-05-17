@@ -196,38 +196,38 @@ kill_process(){
 		echo_date 关闭pdu进程...
 		kill -9 $pdu >/dev/null 2>&1
 	fi
-	client_linux_arm5_process=`pidof client_linux_arm5`
-	if [ -n "$client_linux_arm5_process" ];then
+	client_linux_process=`pidof client_linux`
+	if [ -n "$client_linux_process" ];then 
 		echo_date 关闭kcp协议进程...
-		killall client_linux_arm5 >/dev/null 2>&1
+		killall client_linux >/dev/null 2>&1
 	fi
 	haproxy_process=`pidof haproxy`
-	if [ -n "$haproxy_process" ];then
+	if [ -n "$haproxy_process" ];then 
 		echo_date 关闭haproxy进程...
 		killall haproxy >/dev/null 2>&1
 	fi
 	speederv1_process=`pidof speederv1`
-	if [ -n "$speederv1_process" ];then
+	if [ -n "$speederv1_process" ];then 
 		echo_date 关闭speederv1进程...
 		killall speederv1 >/dev/null 2>&1
 	fi
 	speederv2_process=`pidof speederv2`
-	if [ -n "$speederv2_process" ];then
+	if [ -n "$speederv2_process" ];then 
 		echo_date 关闭speederv2进程...
 		killall speederv2 >/dev/null 2>&1
 	fi
 	ud2raw_process=`pidof udp2raw`
-	if [ -n "$ud2raw_process" ];then
+	if [ -n "$ud2raw_process" ];then 
 		echo_date 关闭ud2raw进程...
 		killall udp2raw >/dev/null 2>&1
 	fi
 	https_dns_proxy_process=`pidof https_dns_proxy`
-	if [ -n "$https_dns_proxy_process" ];then
+	if [ -n "$https_dns_proxy_process" ];then 
 		echo_date 关闭https_dns_proxy进程...
 		killall https_dns_proxy >/dev/null 2>&1
 	fi
 	haveged_process=`pidof haveged`
-	if [ -n "$haveged_process" ];then
+	if [ -n "$haveged_process" ];then 
 		echo_date 关闭haveged进程...
 		killall haveged >/dev/null 2>&1
 	fi
@@ -236,6 +236,8 @@ kill_process(){
 		echo_date 关闭trojan进程...
 		killall trojan >/dev/null 2>&1
 	fi
+	echo 1 > /proc/sys/net/ipv4/tcp_fastopen
+	
 }
 
 # ================================= ss prestart ===========================
@@ -839,14 +841,14 @@ start_kcp(){
 
 			start-stop-daemon -S -q -b -m \
 			-p /tmp/var/kcp.pid \
-			-x /jffs/softcenter/bin/client_linux_arm5 \
+			-x /jffs/softcenter/bin/client_linux \
 			-- -l 127.0.0.1:1091 \
 			-r $ss_basic_kcp_server:$ss_basic_kcp_port \
 			$KCP_CRYPT $KCP_KEY $KCP_SNDWND $KCP_RNDWND $KCP_MTU $KCP_CONN $COMP $KCP_MODE $ss_basic_kcp_extra
 		else
 			start-stop-daemon -S -q -b -m \
 			-p /tmp/var/kcp.pid \
-			-x /jffs/softcenter/bin/client_linux_arm5 \
+			-x /jffs/softcenter/bin/client_linux \
 			-- -l 127.0.0.1:1091 \
 			-r $ss_basic_kcp_server:$ss_basic_kcp_port \
 			$ss_basic_kcp_parameter

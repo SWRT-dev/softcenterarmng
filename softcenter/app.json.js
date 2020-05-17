@@ -21,14 +21,14 @@
             "version": "1.0.2"
         }, 
         {
-            "build_date": "2020-04-18_08:00:30", 
+            "build_date": "2020-05-17_14:38:44", 
             "description": "科学上网", 
             "home_url": "Main_Ss_Content.asp", 
-            "md5": "4c132868b10839ead62d431bbda26acb", 
+            "md5": "97c85c5f71aba28f139e58fc359edb19", 
             "name": "shadowsocks", 
             "tar_url": "shadowsocks/shadowsocks.tar.gz", 
             "title": "科学上网", 
-            "version": "4.2.7"
+            "version": "4.2.8"
         }, 
         {
             "build_date": "2019-07-26_10:56:02", 
@@ -71,10 +71,10 @@
             "version": "1.0"
         }, 
         {
-            "build_date": "2019-07-26_11:01:53", 
+            "build_date": "2020-05-15_13:10:17", 
             "description": "老板，来一斤虚拟内存~", 
             "home_url": "Module_swap.asp", 
-            "md5": "aca46d5ae26e402c5793765adaf75b95", 
+            "md5": "b63a8dcf75bdbabf43615b2368033b25", 
             "name": "swap", 
             "tar_url": "swap/swap.tar.gz", 
             "title": "虚拟内存", 
@@ -191,14 +191,14 @@
             "version": "1.5"
         }, 
         {
-            "build_date": "2020-04-12_19:45:25", 
+            "build_date": "2020-05-17_13:28:58", 
             "description": "aliddns", 
             "home_url": "Module_aliddns.asp", 
-            "md5": "eed543734918e32960426b8ae9f263e8", 
+            "md5": "eca948c0e5cc76cc561fd2d7041940cf", 
             "name": "aliddns", 
             "tar_url": "aliddns/aliddns.tar.gz", 
             "title": "阿里DDNS", 
-            "version": "2.0"
+            "version": "2.1"
         }, 
         {
             "build_date": "2019-08-12_17:46:31", 
@@ -221,14 +221,14 @@
             "version": "1.4"
         }, 
         {
-            "build_date": "2019-11-17_21:49:00", 
+            "build_date": "2020-05-17_12:55:38", 
             "description": "自动部署SSL证书", 
             "home_url": "Module_acme.asp", 
-            "md5": "52f3c15ed5f331135bb400ecd9e79901", 
+            "md5": "3039707a540737f9f0257d8823cf35c0", 
             "name": "acme", 
             "tar_url": "acme/acme.tar.gz", 
             "title": "Let's Encrypt", 
-            "version": "3.0"
+            "version": "3.1"
         }, 
         {
             "build_date": "2020-01-06_18:44:44", 
@@ -282,7 +282,7 @@
         }
     ], 
     "home_url": "https://raw.githubusercontent.com/paldier/softcenterarmng/master", 
-    "md5": "c4cd93b7f57bfe3359eb2b06b85bf11a", 
+    "md5": "0788ad627237f74e37f1750852f562e9", 
     "tar_url": "softcenter/softcenter.tar.gz", 
-    "version": "1.2.6"
+    "version": "1.2.7"
 }
