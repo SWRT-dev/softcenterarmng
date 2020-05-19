@@ -21,10 +21,10 @@
             "version": "1.0.2"
         }, 
         {
-            "build_date": "2020-05-17_14:38:44", 
+            "build_date": "2020-05-19_20:31:30", 
             "description": "科学上网", 
             "home_url": "Main_Ss_Content.asp", 
-            "md5": "97c85c5f71aba28f139e58fc359edb19", 
+            "md5": "0a9fc0c464dc7a732854b82b15ed578b", 
             "name": "shadowsocks", 
             "tar_url": "shadowsocks/shadowsocks.tar.gz", 
             "title": "科学上网", 
