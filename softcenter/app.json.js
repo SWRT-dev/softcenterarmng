@@ -51,14 +51,14 @@
             "version": "1.4"
         }, 
         {
-            "build_date": "2019-11-01_10:40:56", 
+            "build_date": "2020-05-19_09:55:18", 
             "description": "易有云 （EasyExplorer） 跨平台文件同步，支持双向同步！", 
             "home_url": "Module_easyexplorer.asp", 
-            "md5": "2048161cc112089403f45bce105d51dd", 
+            "md5": "f0647b854b20de5ffca437811347712a", 
             "name": "easyexplorer", 
             "tar_url": "easyexplorer/easyexplorer.tar.gz", 
             "title": "易有云", 
-            "version": "2.3"
+            "version": "2.4"
         }, 
         {
             "build_date": "2019-07-25_11:34:28", 
@@ -149,16 +149,6 @@
             "tar_url": "fastd1ck/fastd1ck.tar.gz", 
             "title": "讯雷快鸟", 
             "version": "1.6"
-        }, 
-        {
-            "build_date": "2019-07-24_11:01:49", 
-            "description": "dc1服务器", 
-            "home_url": "Module_dc1svr.asp", 
-            "md5": "02b6eba6fd8e00f75d82ebd4b5d0bfe7", 
-            "name": "dc1svr", 
-            "tar_url": "dc1svr/dc1svr.tar.gz", 
-            "title": "dc1服务器", 
-            "version": "1.1"
         }, 
         {
             "build_date": "2020-01-06_18:45:33", 
