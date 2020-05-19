@@ -141,14 +141,14 @@
             "version": "1.4"
         }, 
         {
-            "build_date": "2019-07-25_11:34:22", 
+            "build_date": "2020-05-19_10:42:41", 
             "description": "迅雷快鸟，为上网加速而生~", 
             "home_url": "Module_fastd1ck.asp", 
-            "md5": "dd858b291e026b9aca3c27cbea7bc431", 
+            "md5": "fb9b79767a83383f8ebb41e2356213e2", 
             "name": "fastd1ck", 
             "tar_url": "fastd1ck/fastd1ck.tar.gz", 
             "title": "讯雷快鸟", 
-            "version": "1.6"
+            "version": "1.7"
         }, 
         {
             "build_date": "2020-01-06_18:45:33", 
