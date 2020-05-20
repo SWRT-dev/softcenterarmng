@@ -171,14 +171,14 @@
             "version": "1.0.0"
         }, 
         {
-            "build_date": "2019-08-12_17:46:21", 
+            "build_date": "2020-05-20_11:05:57", 
             "description": "这是一只自动帮你签到的dog", 
             "home_url": "Module_qiandao.asp", 
-            "md5": "542a80bf5c0fb41808a2da43a1425fd2", 
+            "md5": "9696039009fdab2046a083057a9bcf7b", 
             "name": "qiandao", 
             "tar_url": "qiandao/qiandao.tar.gz", 
             "title": "签到dog", 
-            "version": "1.5"
+            "version": "1.6"
         }, 
         {
             "build_date": "2020-05-17_13:28:58", 
