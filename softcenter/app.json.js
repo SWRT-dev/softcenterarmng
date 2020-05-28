@@ -251,10 +251,10 @@
             "version": "1.4"
         }, 
         {
-            "build_date": "2020-05-20_18:36:42", 
+            "build_date": "2020-05-28_08:58:40", 
             "description": "从路由器推送状态及通知的工具", 
             "home_url": "Module_serverchan.asp", 
-            "md5": "3c4b4cd2af725cc2392d0249bee227e1", 
+            "md5": "0030f0ab11214994bdbc27f0c9a8ee8b", 
             "name": "serverchan", 
             "tar_url": "serverchan/serverchan.tar.gz", 
             "title": "ServerChan微信推送", 
