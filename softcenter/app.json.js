@@ -21,16 +21,6 @@
             "version": "1.0.3"
         }, 
         {
-            "build_date": "2020-05-20_10:40:59", 
-            "description": "科学上网", 
-            "home_url": "Main_Ss_Content.asp", 
-            "md5": "b4f0cbf748dc2faee51c0e1e87204670", 
-            "name": "shadowsocks", 
-            "tar_url": "shadowsocks/shadowsocks.tar.gz", 
-            "title": "科学上网", 
-            "version": "4.2.8"
-        }, 
-        {
             "build_date": "2020-05-20_19:44:12", 
             "description": "超强的SSH网页客户端~", 
             "home_url": "Module_shellinabox.asp", 
@@ -119,16 +109,6 @@
             "tar_url": "frpc/frpc.tar.gz", 
             "title": "frpc穿透", 
             "version": "1.8"
-        }, 
-        {
-            "build_date": "2019-09-21_19:37:25", 
-            "description": "ss-server", 
-            "home_url": "Module_ssserver.asp", 
-            "md5": "5bce99e47b75c4365b3311cba19fcfd2", 
-            "name": "ssserver", 
-            "tar_url": "ssserver/ssserver.tar.gz", 
-            "title": "ss-server", 
-            "version": "2.4"
         }, 
         {
             "build_date": "2019-08-12_17:46:09", 
@@ -231,16 +211,6 @@
             "version": "1.4"
         }, 
         {
-            "build_date": "2019-09-26_21:31:33", 
-            "description": "v2ray", 
-            "home_url": "Module_v2ray.asp", 
-            "md5": "fc0cba943a7eb76cd3f692ddaa49f059", 
-            "name": "v2ray", 
-            "tar_url": "v2ray/v2ray.tar.gz", 
-            "title": "v2ray", 
-            "version": "4.18.2"
-        }, 
-        {
             "build_date": "2020-05-19_08:31:32", 
             "description": "百度盘", 
             "home_url": "Module_baidupcs.asp", 
@@ -272,7 +242,7 @@
         }
     ], 
     "home_url": "https://raw.githubusercontent.com/paldier/softcenterarmng/master", 
-    "md5": "d7a370f672b35c40ffaaadf49bb85ef9", 
+    "md5": "56b8521cdea09917ce06b80d8676a1f0", 
     "tar_url": "softcenter/softcenter.tar.gz", 
-    "version": "1.2.7"
+    "version": "1.2.8"
 }
