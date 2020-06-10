@@ -161,6 +161,16 @@
             "version": "1.6"
         }, 
         {
+            "build_date": "2020-06-10_11:10:36", 
+            "description": "内网穿透利器，谁用谁知道。", 
+            "home_url": "Module_frps.asp", 
+            "md5": "9211fc832a32f804a3d0c3e40fdbc583", 
+            "name": "frps", 
+            "tar_url": "frps/frps.tar.gz", 
+            "title": "frps穿透服务器", 
+            "version": "1.5"
+        }, 
+        {
             "build_date": "2020-05-28_09:20:05", 
             "description": "aliddns", 
             "home_url": "Module_aliddns.asp", 
