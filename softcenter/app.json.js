@@ -191,14 +191,14 @@
             "version": "1.5"
         }, 
         {
-            "build_date": "2020-05-17_16:06:26", 
+            "build_date": "2020-06-10_11:03:08", 
             "description": "自动部署SSL证书", 
             "home_url": "Module_acme.asp", 
-            "md5": "5e8a9898089c15f1de770e3fe40aeac2", 
+            "md5": "b2c97bca51b760deb8434e8e9356394c", 
             "name": "acme", 
             "tar_url": "acme/acme.tar.gz", 
             "title": "Let's Encrypt", 
-            "version": "3.1"
+            "version": "3.2"
         }, 
         {
             "build_date": "2020-01-06_18:44:44", 

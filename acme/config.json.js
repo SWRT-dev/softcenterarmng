@@ -1,8 +1,8 @@
 {
-"version":"3.1",
-"md5":"5e8a9898089c15f1de770e3fe40aeac2",
+"version":"3.2",
+"md5":"b2c97bca51b760deb8434e8e9356394c",
 "home_url":"Module_acme.asp",
 "title":"Let's Encrypt",
 "description":"自动部署SSL证书",
-"build_date":"2020-05-17_16:06:26"
+"build_date":"2020-06-10_11:03:08"
 }
