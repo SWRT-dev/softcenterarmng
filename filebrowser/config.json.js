@@ -1,8 +1,8 @@
 {
-"version":"1.0.2",
-"md5":"0e7b3f439419a18ad54412068276c28f",
+"version":"1.0.4",
+"md5":"02c5628b30b9a621065ac0eac39b0e3c",
 "home_url":"Module_filebrowser.asp",
 "title":"filebrowser",
 "description":"FileBrowser：您的可视化路由文件管理系统",
-"build_date":"2020-09-30_15:28:05"
+"build_date":"2020-11-28_20:34:15"
 }
