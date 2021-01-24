@@ -231,14 +231,14 @@
             "version": "1.7"
         }, 
         {
-            "build_date": "2021-01-15_11:47:09", 
+            "build_date": "2021-01-24_11:51:53", 
             "description": "分布式的虚拟以太网", 
             "home_url": "Module_zerotier.asp", 
-            "md5": "4158aaec0d20b96a600a9ccb0778bf33", 
+            "md5": "1e10366a11baf5df5d98a00bcbfa3cd3", 
             "name": "zerotier", 
             "tar_url": "zerotier/zerotier.tar.gz", 
             "title": "zerotier", 
-            "version": "0.2"
+            "version": "0.3"
         }, 
         {
             "build_date": "2020-12-02_14:15:31", 
