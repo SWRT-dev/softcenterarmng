@@ -11,6 +11,16 @@
             "version": "1.1.1"
         }, 
         {
+            "build_date": "2021-03-24_20:01:41", 
+            "description": "腾讯游戏加速插件", 
+            "home_url": "Module_qmacc.asp", 
+            "md5": "ac20d4da6d2a09f65742b65087d3134e", 
+            "name": "qmacc", 
+            "tar_url": "qmacc/qmacc.tar.gz", 
+            "title": "腾讯游戏加速插件", 
+            "version": "1.0.2"
+        }, 
+        {
             "build_date": "2020-05-20_19:44:12", 
             "description": "超强的SSH网页客户端~", 
             "home_url": "Module_shellinabox.asp", 
