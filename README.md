@@ -22,8 +22,8 @@
 | :---------: | :----------------------------------------------------------: | :---------------------------------------------: | :----------------------------------------------------------: | :-----------------------------------------------: |:-----------------------------------------------: |
 |  项目名称   | [softcenter](https://github.com/SWRT-dev/softcenter) | [softcenterarm](https://github.com/SWRT-dev/softcenterarm) |       [softcenterarm64](https://github.com/SWRT-dev/softcenterarm64)        | [softcenterarmng](https://github.com/SWRT-dev/softcenterarmng) |[softcentermipsle](https://github.com/SWRT-dev/softcentermipsle) |
 |  适用架构   |                            mips                            |                     armv7l                      |                       aarch64                     |                        armv7l                        |                mipsle             |
-|  linux内核  |               3.10.104                |                2.6.36.4             |             4.1.x            |             4.x.x/3.x.x            |         3.10.14/4.4.x          |
-|     CPU     |                          grx500                           |                    bcm4708/9                    |                          bcm490x                           |                     [bcm675x][ipq4/5/6/80xx][mt7622/3/9]                    |               mtk7621              |
+|  linux内核  |               3.10/4.9               |                2.6.36.4             |             4.1/4.4/4.19/5.x           |             3.x/4.x/5.x            |         3.10/4.4/5.x          |
+|     CPU     |                          grx500                           |                    bcm4708/9                    |                          [bcm490x ][ipq5/6/80xx][mt7622/3]                          |                     [bcm675x][ipq4/5/6/80xx][mt7622/3/9]                    |               mtk7621              |
 |     FPU     |                          soft                          |                    no                    |                         hard                           |                     hard                     |               soft              |
 |  固件版本   |                    MerlinR 5.0.0+                     |              MerlinR 5.0.0+              |                     MerlinR 5.0.0+                      |                  MerlinR 5.0.0+                    |                MerlinR 5.0.0+                    |
 | 软件中心api |                          **1.1/1.5** 代                          |                   **1.1/1.5** 代                    |                          **1.1/1.5** 代                          |                    **1.1/1.5** 代                     |                **1.1/1.5** 代                     |
@@ -31,8 +31,6 @@
 | 代表机型-2  | [K3C](https://github.com/SWRT-dev/K3C-merlin) |              [K3](https://github.com/SWRT-dev/K3-merlin.ng)              | [GT-AC2900](https://github.com/SWRT-dev/gt-ac2900) |                         [RT-AX58U](https://github.com/SWRT-dev/rt-ax58u)                        |         [RT-AX53U](https://github.com/SWRT-dev/rtax53u) |
 | 代表机型-3  | [RAX40](https://github.com/SWRT-dev/rax40-asuswrt) |         [SBRAC1900P](https://github.com/SWRT-dev/sbrac1900p)                                        | [R8000P](https://github.com/SWRT-dev/r8000p) |                        [RT-AX89X](https://github.com/SWRT-dev/rtax89x)                         |         [R6800](https://github.com/SWRT-dev/ac85p-asuswrt)         |
 | 代表机型-4  | DIR2680 |  [RT-AC5300](https://github.com/SWRT-dev/rt-ac5300)                              | RAX80 |                       [RT-ACRH17](https://github.com/SWRT-dev/acrh17-asuswrt)                         |            [RM-AC2100](https://github.com/SWRT-dev/ac85p-asuswrt)              |
-
-
 
 
 
