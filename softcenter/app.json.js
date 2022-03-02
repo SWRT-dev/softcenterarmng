@@ -121,14 +121,15 @@
             "version": "1.9"
         }, 
         {
-            "build_date": "2020-08-20_11:44:01", 
+            "arch": "armng", 
+            "build_date": "2022-03-02_16:16:33", 
             "description": "kms", 
             "home_url": "Module_kms.asp", 
-            "md5": "af3532c946a0ba0b8ea070e566f53aea", 
+            "md5": "038f2638372d6afab961f2168c290669", 
             "name": "kms", 
             "tar_url": "kms/kms.tar.gz", 
             "title": "系统工具", 
-            "version": "1.5"
+            "version": "1.6"
         }, 
         {
             "build_date": "2020-08-20_11:41:38", 
