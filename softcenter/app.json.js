@@ -91,14 +91,15 @@
             "version": "3.8.5.5"
         }, 
         {
-            "build_date": "2021-10-06_22:56:43", 
+            "arch": "armng", 
+            "build_date": "2022-03-12_19:57:33", 
             "description": "linux下载利器", 
             "home_url": "Module_aria2.asp", 
-            "md5": "1e4723afea402d503b50b9fb215ca8d8", 
+            "md5": "280b900bea0ccdd0277f2cf3fa464885", 
             "name": "aria2", 
             "tar_url": "aria2/aria2.tar.gz", 
             "title": "Aria2", 
-            "version": "3.0"
+            "version": "3.1"
         }, 
         {
             "build_date": "2021-03-24_19:53:22", 
