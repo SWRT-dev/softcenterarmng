@@ -1,8 +1,9 @@
 {
-"version":"1.9",
-"md5":"7d34aedc428d1a87f5c52283d68631a3",
+"version":"2.0",
+"md5":"086d5fe7650d0c19a5295dbbc726ed7c",
+"arch":"armng",
 "home_url":"Module_frpc.asp",
 "title":"frpc穿透",
 "description":"内网穿透利器，谁用谁知道。",
-"build_date":"2020-08-20_11:42:29"
+"build_date":"2022-03-21_18:51:38"
 }
