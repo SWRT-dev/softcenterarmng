@@ -11,14 +11,15 @@
             "version": "0.0.2"
         }, 
         {
-            "build_date": "2021-11-16_18:21:17", 
+            "arch": "armng", 
+            "build_date": "2022-04-29_09:53:27", 
             "description": "解锁网易云灰色歌曲", 
             "home_url": "Module_unblockmusic.asp", 
-            "md5": "a31b3af1bf4a3303f645fe03023a1f75", 
+            "md5": "40ac22a9ae92b13bca0fc7545bca6dd2", 
             "name": "unblockmusic", 
             "tar_url": "unblockmusic/unblockmusic.tar.gz", 
             "title": "解锁网易云灰色歌曲", 
-            "version": "1.1.8"
+            "version": "1.1.9"
         }, 
         {
             "build_date": "2021-03-24_20:01:41", 
