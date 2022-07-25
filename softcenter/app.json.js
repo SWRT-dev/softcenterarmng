@@ -307,14 +307,15 @@
             "version": "2.3"
         }, 
         {
-            "build_date": "2020-10-19_16:37:46", 
-            "description": "花生壳内网版3.0 （phddns） 动态域名 内网穿透", 
+            "arch": "armng", 
+            "build_date": "2022-07-25_19:45:28", 
+            "description": "花生壳内网穿透", 
             "home_url": "Module_phddns.asp", 
-            "md5": "1f3836a009e7bd5440afd6c1b3a81f02", 
+            "md5": "a2b7ba4a689910b82131873da47cf69f", 
             "name": "phddns", 
             "tar_url": "phddns/phddns.tar.gz", 
-            "title": "花生壳3.0", 
-            "version": "3.0.3"
+            "title": "花生壳内网穿透", 
+            "version": "3.0.4"
         }, 
         {
             "build_date": "2020-08-20_11:32:52", 
