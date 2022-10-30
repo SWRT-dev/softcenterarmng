@@ -186,6 +186,17 @@
             "version": "2.9.3"
         }, 
         {
+            "arch": "armng", 
+            "build_date": "2022-10-30_17:12:08", 
+            "description": "tailscale", 
+            "home_url": "Module_tailscale.asp", 
+            "md5": "ccf710ac009b160f86355feb94b76fb4", 
+            "name": "tailscale", 
+            "tar_url": "tailscale/tailscale.tar.gz", 
+            "title": "tailscale", 
+            "version": "0.0.1"
+        }, 
+        {
             "build_date": "2020-08-20_11:50:40", 
             "description": "这是一只自动帮你签到的dog", 
             "home_url": "Module_qiandao.asp", 
@@ -266,10 +277,11 @@
             "version": "1.7"
         }, 
         {
-            "build_date": "2021-08-02_12:07:13", 
+            "arch": "armng", 
+            "build_date": "2022-10-30_17:41:39", 
             "description": "分布式的虚拟以太网", 
             "home_url": "Module_zerotier.asp", 
-            "md5": "b84039ef8dbd9117223a5af2578f4536", 
+            "md5": "7c389a2f71a031fb6a045a01952e95da", 
             "name": "zerotier", 
             "tar_url": "zerotier/zerotier.tar.gz", 
             "title": "zerotier", 
