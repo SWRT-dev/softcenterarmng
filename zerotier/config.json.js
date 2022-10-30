@@ -1,9 +1,9 @@
 {
-"version":"0.8",
-"md5":"17ac1609235f1c569555629c41b8d45c",
+"version":"0.9",
+"md5":"d196b8e70ff53a532318de75bf618994",
 "arch":"armng",
 "home_url":"Module_zerotier.asp",
 "title":"zerotier",
 "description":"分布式的虚拟以太网",
-"build_date":"2022-10-30_17:46:18"
+"build_date":"2022-10-30_19:07:26"
 }
