@@ -1,14 +1,15 @@
 {
     "apps": [
         {
-            "build_date": "2021-11-21_13:18:38", 
+            "arch": "armng", 
+            "build_date": "2023-01-08_12:43:27", 
             "description": "局域网网速测试工具", 
             "home_url": "Module_speedtest.asp", 
-            "md5": "10eeb62f847059703446a313bd7ed23a", 
+            "md5": "d00f34fdcac0792f2fd9011bfae780a1", 
             "name": "speedtest", 
             "tar_url": "speedtest/speedtest.tar.gz", 
             "title": "局域网测速", 
-            "version": "0.0.2"
+            "version": "0.0.3"
         }, 
         {
             "arch": "armng", 
@@ -32,14 +33,15 @@
             "version": "1.0.2"
         }, 
         {
-            "build_date": "2020-05-20_19:44:12", 
+            "arch": "armng", 
+            "build_date": "2023-01-08_12:42:43", 
             "description": "超强的SSH网页客户端~", 
             "home_url": "Module_shellinabox.asp", 
-            "md5": "8914537c42310e8f4ce868bccf7029ac", 
+            "md5": "afe4040c46a190f63899886db9961f81", 
             "name": "shellinabox", 
             "tar_url": "shellinabox/shellinabox.tar.gz", 
             "title": "shellinabox", 
-            "version": "2.2"
+            "version": "2.3"
         }, 
         {
             "build_date": "2020-11-28_20:34:15", 
@@ -125,14 +127,14 @@
         }, 
         {
             "arch": "armng", 
-            "build_date": "2022-03-21_18:51:38", 
+            "build_date": "2023-01-08_12:40:16", 
             "description": "内网穿透利器，谁用谁知道。", 
             "home_url": "Module_frpc.asp", 
-            "md5": "086d5fe7650d0c19a5295dbbc726ed7c", 
+            "md5": "60ad7c978b5a91a5a5e5af1e1493c65c", 
             "name": "frpc", 
             "tar_url": "frpc/frpc.tar.gz", 
             "title": "frpc穿透", 
-            "version": "2.0"
+            "version": "2.1"
         }, 
         {
             "arch": "armng", 
@@ -207,14 +209,15 @@
             "version": "1.7"
         }, 
         {
-            "build_date": "2020-10-27_20:13:37", 
+            "arch": "armng", 
+            "build_date": "2023-01-08_12:41:05", 
             "description": "内网穿透利器，谁用谁知道。", 
             "home_url": "Module_frps.asp", 
-            "md5": "9458021629216185b60906b207656cbf", 
+            "md5": "8db6b82e16e26e27dddede4b61d743af", 
             "name": "frps", 
             "tar_url": "frps/frps.tar.gz", 
             "title": "frps穿透服务器", 
-            "version": "1.7"
+            "version": "1.8"
         }, 
         {
             "build_date": "2020-08-20_11:34:20", 
@@ -288,14 +291,15 @@
             "version": "1.1"
         }, 
         {
-            "build_date": "2021-01-26_08:35:43", 
+            "arch": "armng", 
+            "build_date": "2023-01-08_12:39:48", 
             "description": "百度盘", 
             "home_url": "Module_baidupcs.asp", 
-            "md5": "89cda3e9a305ca41ba3837727f28ac0c", 
+            "md5": "c88c531e18b84f475cd1e243c5556d4f", 
             "name": "baidupcs", 
             "tar_url": "baidupcs/baidupcs.tar.gz", 
             "title": "百度盘", 
-            "version": "1.7"
+            "version": "1.8"
         }, 
         {
             "arch": "armng", 
@@ -309,14 +313,15 @@
             "version": "1.8.0"
         }, 
         {
-            "build_date": "2022-02-18_19:42:43", 
+            "arch": "armng", 
+            "build_date": "2023-01-08_12:41:53", 
             "description": "从路由器推送状态及通知的工具", 
             "home_url": "Module_serverchan.asp", 
-            "md5": "3a6b0ca568e4cfcd512df5f5107e7c9a", 
+            "md5": "0f1ed7fe7a7282204f9ce6942b63c166", 
             "name": "serverchan", 
             "tar_url": "serverchan/serverchan.tar.gz", 
             "title": "ServerChan微信推送", 
-            "version": "2.3"
+            "version": "2.4"
         }, 
         {
             "arch": "armng", 

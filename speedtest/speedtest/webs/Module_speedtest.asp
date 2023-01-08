@@ -19,7 +19,6 @@
         <script type="text/javascript" src="/general.js"></script>
         <script type="text/javascript" src="/js/jquery.js"></script>
         <script type="text/javascript" src="/client_function.js"></script>
-        <script type="text/javascript" src="/calendar/jquery-ui.js"></script>
         <script type="text/javascript" src="/switcherplugin/jquery.iphone-switch.js"></script>
         <script type="text/javascript" src="/form.js"></script>
 		<script type="text/javascript" src="/res/softcenter.js"></script>

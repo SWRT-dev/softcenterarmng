@@ -1,8 +1,9 @@
 {
-"version":"2.2",
-"md5":"8914537c42310e8f4ce868bccf7029ac",
+"version":"2.3",
+"md5":"afe4040c46a190f63899886db9961f81",
+"arch":"armng",
 "home_url":"Module_shellinabox.asp",
 "title":"shellinabox",
 "description":"超强的SSH网页客户端~",
-"build_date":"2020-05-20_19:44:12"
+"build_date":"2023-01-08_12:42:43"
 }

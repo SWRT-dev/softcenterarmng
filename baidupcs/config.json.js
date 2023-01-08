@@ -1,8 +1,9 @@
 {
-"version":"1.7",
-"md5":"89cda3e9a305ca41ba3837727f28ac0c",
+"version":"1.8",
+"md5":"c88c531e18b84f475cd1e243c5556d4f",
+"arch":"armng",
 "home_url":"Module_baidupcs.asp",
 "title":"百度盘",
 "description":"百度盘",
-"build_date":"2021-01-26_08:35:43"
+"build_date":"2023-01-08_12:39:48"
 }

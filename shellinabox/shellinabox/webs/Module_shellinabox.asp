@@ -23,7 +23,6 @@
 <script type="text/javascript" src="/client_function.js"></script>
 <script type="text/javascript" src="/validator.js"></script>
 <script type="text/javascript" src="/js/jquery.js"></script>
-<script type="text/javascript" src="/calendar/jquery-ui.js"></script>
 <script type="text/javascript" src="/switcherplugin/jquery.iphone-switch.js"></script>
 <style>
 	#log_content{
@@ -110,7 +109,7 @@ function menu_hook(title, tab) {
 <table width="700px" style="margin-left:25px;">
 <tr>
 <td>
-<div id="guest_image" style="background: url(images/New_ui/webshell.png);width: 100px;height: 87px;"></div>
+<div id="guest_image" style="width: 100px;height: 87px;"></div>
 </td>
 <td>&nbsp;&nbsp;</td>
 <td style="font-style: italic;font-size: 14px;">
