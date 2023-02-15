@@ -51,7 +51,7 @@ echo_date 为新安装文件赋予执行权限...
 chmod 755 /jffs/softcenter/scripts/filebrowser*
 chmod 755 /jffs/softcenter/bin/filebrow*
 echo_date 创建一些二进制文件的软链接！
-[ ! -L "/jffs/softcenter/init.d/S99filebrowser.sh" ] && ln -sf /jffs/softcenter/scripts/filebrowser_start.sh /jffs/softcenter/init.d/S99filebrowser.sh
+[ ! -L "/jffs/softcenter/init.d/N99filebrowser.sh" ] && ln -sf /jffs/softcenter/scripts/filebrowser_start.sh /jffs/softcenter/init.d/N99filebrowser.sh
 	
 # 离线安装时设置软件中心内储存的版本号和连接
 echo_date 清除冗余数据
@@ -61,6 +61,9 @@ dbus remove filebrowser_port
 dbus remove filebrowser_publicswitch
 dbus remove filebrowser_delay_time
 dbus remove filebrowser_uploaddatabase
+dbus remove filebrowser_sslswitch
+dbus remove filebrowser_cert
+dbus remove filebrowser_key
 dbus remove softcenter_module_filebrowser_install
 dbus remove softcenter_module_filebrowser_version
 dbus remove softcenter_module_filebrowser_title
