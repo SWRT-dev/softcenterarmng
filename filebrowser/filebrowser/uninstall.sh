@@ -27,6 +27,9 @@ rm -rf /jffs/softcenter/scripts/uninstall_filebrowser.sh
 	dbus remove filebrowser_publicswitch
 	dbus remove filebrowser_delay_time
 	dbus remove filebrowser_uploaddatabase
+	dbus remove filebrowser_sslswitch
+	dbus remove filebrowser_cert
+	dbus remove filebrowser_key
 	dbus remove softcenter_module_filebrowser_install
 	dbus remove softcenter_module_filebrowser_version
 	dbus remove softcenter_module_filebrowser_title
