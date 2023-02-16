@@ -67,10 +67,10 @@ input[type=button]:focus {
 					var arr = response.result.split("@");
 					E("filebrowser_status").innerHTML = arr[0];
 				
-					if(db_filebrowser["filebrowser_sslswitch"] == "0"){
-				    $("#fileb").html("<a type='button' href='http://"+ location.hostname + ":"+arr[2]+"' target='_blank' >访问 FileBrowser</a>");
+					if(E("filebrowser_sslswitch").checked) {
+				    $("#fileb").html("<a type='button' href='https://"+ location.hostname + ":"+arr[2]+"' target='_blank' >访问 FileBrowser</a>");
 					} else {
-					$("#fileb").html("<a type='button' href='https://"+ location.hostname + ":"+arr[2]+"' target='_blank' >访问 FileBrowser</a>");
+					$("#fileb").html("<a type='button' href='http://"+ location.hostname + ":"+arr[2]+"' target='_blank' >访问 FileBrowser</a>");
 					}
 					
 					setTimeout("check_status();", 10000);
@@ -82,6 +82,13 @@ input[type=button]:focus {
 			});
 		}
         function start() {
+            if (E("filebrowser_watchdog").checked) {
+                if ((E("filebrowser_delay_time").value) == "") {
+                alert("已开看门狗，请填写时间，或刷新页面拉取默认值，再继续操作!");
+                return false;
+		        }
+	        }
+            
             showLoading(2);
             refreshpage(2);
             var id = parseInt(Math.random() * 100000000);
