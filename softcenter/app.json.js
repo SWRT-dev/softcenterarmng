@@ -2,14 +2,14 @@
     "apps": [
         {
             "arch": "armng", 
-            "build_date": "2023-01-08_12:41:05", 
+            "build_date": "2023-02-17_16:11:09", 
             "description": "内网穿透利器，谁用谁知道。", 
             "home_url": "Module_frps.asp", 
-            "md5": "8db6b82e16e26e27dddede4b61d743af", 
+            "md5": "ff71266765b542881d3017a910ece553", 
             "name": "frps", 
             "tar_url": "frps/frps.tar.gz", 
             "title": "frps穿透服务器", 
-            "version": "1.8"
+            "version": "1.9"
         }, 
         {
             "build_date": "2021-03-24_20:18:28", 
@@ -212,14 +212,14 @@
         }, 
         {
             "arch": "armng", 
-            "build_date": "2023-01-08_12:40:16", 
+            "build_date": "2023-02-17_16:12:34", 
             "description": "内网穿透利器，谁用谁知道。", 
             "home_url": "Module_frpc.asp", 
-            "md5": "60ad7c978b5a91a5a5e5af1e1493c65c", 
+            "md5": "36d64187735cbabbaf292758b739b5b9", 
             "name": "frpc", 
             "tar_url": "frpc/frpc.tar.gz", 
             "title": "frpc穿透", 
-            "version": "2.1"
+            "version": "2.2"
         }, 
         {
             "build_date": "2020-08-20_11:34:20", 
