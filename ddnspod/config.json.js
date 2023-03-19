@@ -1,9 +1,9 @@
 {
-"version":"1.8",
-"md5":"3998927c7aa1fd7afa3bf8448d96d136",
+"version":"1.9",
+"md5":"d8b860ca6fcfc88b21c1580e9eac6d57",
 "arch":"armng",
 "home_url":"Module_ddnspod.asp",
 "title":"DDnspod",
 "description":"使用Dnspod的ddns服务",
-"build_date":"2023-03-18_08:24:25"
+"build_date":"2023-03-19_09:52:34"
 }
