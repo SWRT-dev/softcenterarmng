@@ -341,14 +341,15 @@
             "version": "1.8"
         }, 
         {
-            "build_date": "2021-01-24_11:50:47", 
+            "arch": "armng", 
+            "build_date": "2023-04-25_18:34:52", 
             "description": "DDNSTO远程控制", 
             "home_url": "Module_ddnsto.asp", 
-            "md5": "17e1b572ec04a7658b5ea5992972ef9a", 
+            "md5": "dc307b6f188a5d0b106641dcd2c87480", 
             "name": "ddnsto", 
             "tar_url": "ddnsto/ddnsto.tar.gz", 
             "title": "DDNSTO远程控制", 
-            "version": "2.9.3"
+            "version": "3.0.2"
         }, 
         {
             "build_date": "2020-08-20_12:28:12", 
