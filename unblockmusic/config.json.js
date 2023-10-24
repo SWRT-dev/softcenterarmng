@@ -1,9 +1,9 @@
 {
-"version":"1.1.9",
-"md5":"40ac22a9ae92b13bca0fc7545bca6dd2",
+"version":"1.2.0",
+"md5":"d4e4a41434b5f79718476da830dd2a0f",
 "arch":"armng",
 "home_url":"Module_unblockmusic.asp",
 "title":"解锁网易云灰色歌曲",
 "description":"解锁网易云灰色歌曲",
-"build_date":"2022-04-29_09:53:27"
+"build_date":"2023-10-24_15:11:25"
 }
