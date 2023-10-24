@@ -1,9 +1,9 @@
 {
-"version":"0.1",
-"md5":"ff80ad09c19dd883778bc71d28b2e4b8",
+"version":"0.2",
+"md5":"4682616875662ffa5f89ccb82d575e3c",
 "arch":"armng",
 "home_url":"Module_ddns.asp",
 "title":"多ddns合一",
 "description":"支持Alidns(阿里云) Dnspod(腾讯云) Cloudflare 华为云 Callback",
-"build_date":"2022-03-20_15:58:28"
+"build_date":"2023-10-24_15:52:35"
 }
