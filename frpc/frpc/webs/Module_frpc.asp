@@ -907,7 +907,7 @@ function openssHint(itemNum) {
                                         <tr>
                                             <th width="20%"><a class="hintstyle" href="javascript:void(0);" onclick="openssHint(2)">通信端口</a></th>
                                             <td>
-                                        <input type="text" oninput="this.value=this.value.replace(/[^\d]/g, '').replace(/^0{1,}/g,''); if(value>65535)value=65535" class="input_ss_table" id="frpc_common_serverPort" name="frpc_common_serverPort" maxlength="5" value="" placeholder="7000" />
+                                        <input type="text" oninput="this.value=this.value.replace(/[^\d-]/g, ''); if(value>65535)value=65535" class="input_ss_table" id="frpc_common_serverPort" name="frpc_common_serverPort" maxlength="6" value="" placeholder="7000" />
                                             </td>
                                         </tr>
                                         
@@ -1072,7 +1072,7 @@ function openssHint(itemNum) {
                                             <input type="text" id="localhost_node" name="localhost_node" class="input_12_table" maxlength="99" placeholder=""/>
                                         </td>
                                         <td>
-                                            <input type="text" id="localport_node" name="localport_node" class="input_6_table" maxlength="50" placeholder=""/>
+                                            <input type="text" id="localport_node" name="localport_node" class="input_6_table" maxlength="6" placeholder=""/>
                                         </td>
                                         <td>
                                             <input type="text" id="remoteport_node" name="remoteport_node" class="input_6_table" maxlength="99" placeholder=""/>
