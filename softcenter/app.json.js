@@ -225,14 +225,14 @@
         }, 
         {
             "arch": "armng", 
-            "build_date": "2023-12-07_07:48:43", 
+            "build_date": "2024-02-26_09:54:24", 
             "description": "内网穿透利器，谁用谁知道。", 
             "home_url": "Module_frpc.asp", 
-            "md5": "a2a2bca2f177f0a5715d3638565e2b35", 
+            "md5": "e62321a0811e790b5a4001dabea36f54", 
             "name": "frpc", 
             "tar_url": "frpc/frpc.tar.gz", 
             "title": "frpc穿透", 
-            "version": "2.3"
+            "version": "2.4"
         }, 
         {
             "arch": "armng", 
