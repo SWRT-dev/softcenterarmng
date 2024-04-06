@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
 <meta HTTP-EQUIV="Expires" CONTENT="-1">
-<title id="web_title"><#587#> - webshell</title>
+<title id="web_title">软件中心 - webshell</title>
 <link rel="shortcut icon" href="images/favicon.png">
 <link rel="icon" href="images/favicon.png">
 <link rel="stylesheet" type="text/css" href="ParentalControl.css">
@@ -24,6 +24,7 @@
 <script type="text/javascript" src="/validator.js"></script>
 <script type="text/javascript" src="/js/jquery.js"></script>
 <script type="text/javascript" src="/switcherplugin/jquery.iphone-switch.js"></script>
+<script type="text/javascript" src="/res/softcenter.js"></script>
 <style>
 	#log_content{
 		outline: 1px solid #222;
@@ -41,7 +42,6 @@
 		overflow-x:hidden;
 		border:0px solid #222;
 		background:#475A5F;
-		background:transparent; /* W3C rogcss */
 	}
 </style>
 <script>
@@ -55,6 +55,7 @@ window.open("http://"+window.location.hostname+":4200");
 function applyRule(){
 showLoading(2);
 document.form.submit();
+refreshpage(2);
 }
 function menu_hook(title, tab) {
 	tabtitle[tabtitle.length -1] = new Array("", "软件中心", "离线安装", "webshell");
@@ -161,7 +162,7 @@ document.form.webshell_enable.value = 0;
 </tr></thead>
 <tr><td colspan="2">
 <div id="log_content" style="margin-top:-1px;display:block;overflow:hidden;">
-<textarea id="log_content_text" cols="63" rows="20" wrap="on" readonly="readonly">
+<textarea id="log_content_text" cols="63" rows="15" wrap="on" readonly="readonly">
 <% nvram_dump("webshell.log",""); %>
 </textarea>
 </div>
