@@ -42,6 +42,7 @@
 		overflow-x:hidden;
 		border:0px solid #222;
 		background:#475A5F;
+		background:transparent; /* W3C rogcss */
 	}
 </style>
 <script>
