@@ -54,9 +54,9 @@ function reactive(){
 window.open("http://"+window.location.hostname+":4200");
 }
 function applyRule(){
-showLoading(2);
+showLoading(3);
 document.form.submit();
-refreshpage(2);
+refreshpage(3);
 }
 function menu_hook(title, tab) {
 	tabtitle[tabtitle.length -1] = new Array("", "软件中心", "离线安装", "webshell");
@@ -159,11 +159,11 @@ document.form.webshell_enable.value = 0;
 </tr>
 </thead>
 <thead><tr>
-<td colspan="2">日志信息</td>
+<td colspan="2">日志信息（手动刷新）</td>
 </tr></thead>
 <tr><td colspan="2">
 <div id="log_content" style="margin-top:-1px;display:block;overflow:hidden;">
-<textarea id="log_content_text" cols="63" rows="15" wrap="on" readonly="readonly">
+<textarea id="log_content_text" cols="63" rows="20" wrap="on" readonly="readonly">
 <% nvram_dump("webshell.log",""); %>
 </textarea>
 </div>
