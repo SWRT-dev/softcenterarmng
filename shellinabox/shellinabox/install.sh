@@ -26,7 +26,7 @@ chmod 755 /jffs/softcenter/shellinabox/*
 chmod 755 /jffs/softcenter/scripts/*
 # open in new window
 dbus set softcenter_module_shellinabox_install="1"
-dbus set softcenter_module_shellinabox_target="target=_blank"
+# dbus set softcenter_module_shellinabox_target="target=_blank"  #取消新窗口，感觉没必要
 dbus remove shellinabox_enable
 # 离线安装用
 dbus set shellinabox_version="$(cat $DIR/version)"
