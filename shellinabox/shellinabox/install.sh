@@ -14,7 +14,7 @@ cp -rf /tmp/shellinabox/shellinabox /jffs/softcenter/
 cp -rf /tmp/shellinabox/res/* /jffs/softcenter/res/
 cp -rf /tmp/shellinabox/scripts/* /jffs/softcenter/scripts/
 cp -rf /tmp/shellinabox/webs/* /jffs/softcenter/webs/
-cp -rf /tmp/shellinabox/uninstall.sh /jffs/softcenter/scripts/uninstall_shellinabox
+cp -rf /tmp/shellinabox/uninstall.sh /jffs/softcenter/scripts/uninstall_shellinabox.sh
 if [ "$ROG" == "1" ];then
 	continue
 elif [ "$TUF" == "1" ];then
