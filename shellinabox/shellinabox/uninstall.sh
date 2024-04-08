@@ -6,4 +6,6 @@ rm -rf /jffs/softcenter/shellinabox
 rm -rf /jffs/softcenter/res/icon-shellinabox.png
 rm -rf /jffs/softcenter/scripts/shellinabox_start.sh
 rm -rf /jffs/softcenter/scripts/uninstall_shellinabox.sh
-rm -rf /jffs/softcenter/webs/Module_shellinabox_config.asp
+rm -rf /jffs/softcenter/webs/Module_shellinabox.asp
+
+dbus remove webshell_enable
