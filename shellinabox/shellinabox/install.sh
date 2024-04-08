@@ -14,7 +14,7 @@ cp -rf /tmp/shellinabox/shellinabox /jffs/softcenter/
 cp -rf /tmp/shellinabox/res/* /jffs/softcenter/res/
 cp -rf /tmp/shellinabox/scripts/* /jffs/softcenter/scripts/
 cp -rf /tmp/shellinabox/webs/* /jffs/softcenter/webs/
-cp -rf /tmp/shellinabox/uninstall.sh /jffs/softcenter/scripts/uninstall_shellinabox
+cp -rf /tmp/shellinabox/uninstall.sh /jffs/softcenter/scripts/uninstall_shellinabox.sh
 if [ "$ROG" == "1" ];then
 	continue
 elif [ "$TUF" == "1" ];then
@@ -26,7 +26,7 @@ chmod 755 /jffs/softcenter/shellinabox/*
 chmod 755 /jffs/softcenter/scripts/*
 # open in new window
 dbus set softcenter_module_shellinabox_install="1"
-dbus set softcenter_module_shellinabox_target="target=_blank"
+# dbus set softcenter_module_shellinabox_target="target=_blank"  #取消新窗口，感觉没必要
 dbus remove shellinabox_enable
 # 离线安装用
 dbus set shellinabox_version="$(cat $DIR/version)"
