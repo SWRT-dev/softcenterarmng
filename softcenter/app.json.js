@@ -131,14 +131,14 @@
         }, 
         {
             "arch": "armng", 
-            "build_date": "2024-04-08_10:11:55", 
+            "build_date": "2024-05-08_21:00:03", 
             "description": "分布式的虚拟以太网", 
             "home_url": "Module_zerotier.asp", 
-            "md5": "480383dd5a3c624be89f10c7327d33eb", 
+            "md5": "76dbd4766edce734c4440bd29514603c", 
             "name": "zerotier", 
             "tar_url": "zerotier/zerotier.tar.gz", 
             "title": "zerotier", 
-            "version": "1.3"
+            "version": "1.4"
         }, 
         {
             "arch": "armng", 
