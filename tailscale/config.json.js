@@ -1,9 +1,9 @@
 {
-"version":"0.0.7",
-"md5":"25bf02c57916c8a97a9a890e16240dd6",
+"version":"0.0.8",
+"md5":"5e3eb16c559bb665e4967f119bcea15d",
 "arch":"armng",
 "home_url":"Module_tailscale.asp",
 "title":"tailscale",
 "description":"tailscale",
-"build_date":"2024-09-19_11:44:21"
+"build_date":"2024-10-30_10:36:06"
 }

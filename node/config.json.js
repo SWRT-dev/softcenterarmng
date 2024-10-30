@@ -1,8 +1,9 @@
 {
-"version":"0.0.5",
-"md5":"fbd8445cbe03f86e8ee71c2a245c6b71",
+"version":"0.0.6",
+"md5":"dac8a88d69e349e946b4588afa436a26",
+"arch":"armng",
 "home_url":"Module_node.asp",
 "title":"node.js",
 "description":"node.js",
-"build_date":"2021-03-24_20:18:28"
+"build_date":"2024-10-29_11:02:50"
 }
